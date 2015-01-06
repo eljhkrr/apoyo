@@ -322,7 +322,8 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 100px 0;
+    #padding: 100px 0;
+    margin-top: 0;
 }
 
 section h2.section-heading {
@@ -721,7 +722,7 @@ section#contact .text-danger {
 
 section#support {
     background-color: #222;
-    background-image: url(../img/bg3.png);
+    background-image: url(../img/support.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -732,7 +733,7 @@ section#support .section-heading {
 
 section#consulting {
     background-color: #222;
-    background-image: url(../img/bg4.png);
+    background-image: url(../img/consult.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -744,12 +745,23 @@ section#consulting .section-heading {
 
 section#about {
     background-color: #222;
-    background-image: url(../img/bg2.png);
+    background-image: url(../img/about.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 section#about .section-heading {
+    color: #fff;
+}
+
+section#services {
+    background-color: #222;
+    background-image: url(../img/services.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section#services .section-heading {
     color: #fff;
 }
 
@@ -902,4 +914,18 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #fed136;
+}
+
+.darken{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.active{
+    border-bottom: 3px solid orange;
+    #border-top: 3px solid orange;
+    color: orange !important;
+}
+
+.text-muted{
+    color: #D8D8D8;
 }
